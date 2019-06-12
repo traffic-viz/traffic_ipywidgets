@@ -8,6 +8,7 @@ setup(
         "traffic.plugins": ["TrafficWidget = traffic_ipywidgets.ipywidgets"]
     },
     install_requires=[
+        "traffic",
         "ipympl",  # interactive matplotlib in notebooks
         "tornado",  # dependency for matplotlib with WebAgg
     ],
